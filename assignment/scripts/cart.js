@@ -40,7 +40,9 @@ function isFull() {
     if (maxItems < 5) {
         return false;
     } else if (maxItems >=5) {
-        return false;
+        return true;
     }
 
 }
+
+console.log(isFull());
