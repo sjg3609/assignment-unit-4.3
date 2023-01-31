@@ -21,7 +21,7 @@ function listItems() {
 }
 
 function empty() {
-    basket = '';
+    basket = 'empty';
 }
 
 listItems();
@@ -29,8 +29,8 @@ console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
 console.log(`Basket is now ${basket}`);
 
- // empty();
-console.log(`Basket is ${basket}`);
+// empty();
+// console.log(`Basket is ${basket}`);
 
 // STRETCH GOALS
 
@@ -47,10 +47,16 @@ function isFull() {
 
 console.log(isFull());
 
-// function removeItem( item ) {
-//     basket.indexOf();
-    
-// }
+addItem('strawberries');
+addItem('chicken wings');
 
-// removeItem('apples');
-// listItems();
+
+function removeItem( item ) {
+    basket.indexOf(item);
+    basket.splice(0, 1);
+    return item;
+    
+}
+
+removeItem('strawberries');
+listItems();
