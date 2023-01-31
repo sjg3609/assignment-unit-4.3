@@ -53,10 +53,10 @@ addItem('chicken wings');
 
 function removeItem( item ) {
     basket.indexOf(item);
-    basket.splice(0, 1);
+    basket.splice(2, 1, `${item}`);
     return item;
     
 }
 
-removeItem('strawberries');
+removeItem('blueberries');
 listItems();
