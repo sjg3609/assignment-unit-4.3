@@ -29,7 +29,7 @@ console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
 console.log(`Basket is now ${basket}`);
 
-empty();
+ // empty();
 console.log(`Basket is ${basket}`);
 
 // STRETCH GOALS
@@ -46,3 +46,11 @@ function isFull() {
 }
 
 console.log(isFull());
+
+// function removeItem( item ) {
+//     basket.indexOf();
+    
+// }
+
+// removeItem('apples');
+// listItems();
