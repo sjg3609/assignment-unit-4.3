@@ -21,7 +21,7 @@ function listItems() {
 }
 
 function empty() {
-    basket = 'empty';
+    basket = [];
 }
 
 listItems();
@@ -29,8 +29,8 @@ console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
 console.log(`Basket is now ${basket}`);
 
-// empty();
-// console.log(`Basket is ${basket}`);
+empty();
+console.log(`Basket is ${basket}empty`);
 
 // STRETCH GOALS
 
