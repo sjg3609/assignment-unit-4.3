@@ -54,7 +54,7 @@ addItem('chicken wings');
 function removeItem( item ) {
     basket.indexOf(item);
     basket.splice(2, 1, `${item}`);
-    return item;
+    return item; //Having some issues trying to figure out how to call back the that was removed
     
 }
 
